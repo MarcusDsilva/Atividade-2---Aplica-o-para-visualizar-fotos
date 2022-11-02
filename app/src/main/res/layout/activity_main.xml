@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="400dp"
+        android:layout_height="wrap_content"
+
+        />
+
+    <ImageView
+        android:id="@+id/imgfoto"
+        android:layout_width="300dp"
+        android:layout_height="500dp"
+        android:src="@drawable/vocefoiavisado"
+        />
+  <TextView
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:id="@+id/txtInformacao"
+      android:text="foto 1"
+      android:textSize="20dp"
+      android:paddingLeft="30dp"
+      android:layout_marginLeft="250dp"
+      />
+
+
+
+    <Button
+        android:id="@+id/btnfoto1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imgfoto"
+        android:text="Exibir foto 1" />
+
+    <Button
+        android:id="@+id/btnfoto2"
+        android:layout_below="@+id/btnfoto1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Exibir foto 2"
+        />
+
+</RelativeLayout>
